@@ -8,6 +8,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from '../frontend_client/app.vue'
+import router from '../frontend_client/router/index.js'
+
+Vue.use(VueRouter)
 
 document.addEventListener('DOMContentLoaded', () => {
   document.body.appendChild(document.createElement('hello'))
