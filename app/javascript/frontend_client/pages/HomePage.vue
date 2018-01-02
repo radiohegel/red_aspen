@@ -1,18 +1,18 @@
 <template>
 	<div>
-		<p>Testestest</p>
-		{{ message }}
+		<header-banner></header-banner>
 	</div>
 </template>
 
 <script>
+	import HeaderBanner from '../components/HeaderBanner.vue'
 
 	export default {
 
 	  name: 'HomePage',
+	  components: { HeaderBanner },
 	  data () {
 	    return {
-	    	message: "Router working. this is the homepage."
 	    }
 	  }
 
