@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <p>{{ message }}</p>
     <router-view></router-view>
   </div>
 </template>
@@ -17,9 +16,10 @@
 
 </script>
 
-<style scoped>
-p {
-  font-size: 2em;
-  text-align: center;
-}
+<style lang="sass" scoped>
+  @import './frontend_client/styles/app.sass'
+
+  div
+    font-family: $family-primary
+
 </style>
