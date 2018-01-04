@@ -20,5 +20,7 @@
 
 </script>
 
-<style lang="css" scoped>
+<style lang="sass" scoped>
+	@import "../styles/app.sass"
+
 </style>

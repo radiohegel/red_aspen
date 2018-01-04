@@ -1,5 +1,12 @@
 <template>
-	<p>TEsting. HELLO Mard!</p>
+	<section class="hero is-primary is-fullheight">
+		<div class="hero-body">
+			<div class="container">
+				<p class="title">Red Aspen Management</p>
+				<p class="subtitle">Real Estate Investors</p>
+			</div>
+		</div>
+	</section>
 </template>
 
 <script>
@@ -15,5 +22,13 @@
 	}
 </script>
 
-<style lang="css" scoped>
+<style lang="sass" scoped>
+	@import '../styles/app.sass'
+
+	.hero-body .title
+		font-size: 80px
+
+	.hero-body .subtitle
+		font-size: 30px
+
 </style>
