@@ -1,5 +1,14 @@
 <template>
 	<section class="hero is-primary is-fullheight">
+		<div class="hero-head">
+			<nav class="navbar">
+				<div class="navbar-brand">
+					<a href="" class="navbar-item has-text-primary has-text-weight-semibold">About</a>
+					<a href="" class="navbar-item has-text-primary has-text-weight-semibold">Properties</a>
+					<a href="" class="navbar-item has-text-primary has-text-weight-semibold">Contact</a>
+				</div>
+			</nav>
+		</div>
 		<div class="hero-body">
 			<div class="container">
 				<p class="title">Red Aspen Management</p>
@@ -26,9 +35,12 @@
 	@import '../styles/app.sass'
 
 	.hero-body .title
-		font-size: 80px
+		font-size: 90px
 
 	.hero-body .subtitle
-		font-size: 30px
+		font-size: 40px
+
+	.hero-head .navbar
+		background: $white
 
 </style>
