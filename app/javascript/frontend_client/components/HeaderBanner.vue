@@ -25,7 +25,7 @@
 	@import '../styles/app.sass'
 
 	.hero-body .title
-		font-size: 90px
+		font-size: 80px
 
 	.hero-body .subtitle
 		font-size: 40px
