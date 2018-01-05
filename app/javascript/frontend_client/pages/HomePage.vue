@@ -16,7 +16,7 @@
 	export default {
 
 	  name: 'HomePage',
-	  components: { HeaderBanner, Parallax },
+	  components: { HeaderBanner, Parallax},
 	  data () {
 	    return {
 	    }

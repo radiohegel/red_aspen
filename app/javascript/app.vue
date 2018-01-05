@@ -1,12 +1,15 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <nav-bar></nav-bar>
+    <router-view id="main-content"></router-view>
   </div>
 </template>
 
 <script>
+  import NavBar from './frontend_client/components/NavBar.vue'
 
   export default {
+    components: { NavBar },
     data: function () {
       return {
         message: "Hello Vue is this working!"
