@@ -5,8 +5,7 @@
 		</parallax>
 		<about-section></about-section>	
 		<section class="hero is-fullheight is-white">
-			<div class="hero-body">
-				
+			<div class="hero-body">	
 			</div>
 		</section>
 	</div>
