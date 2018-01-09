@@ -7,6 +7,8 @@
 				<p class="subtitle">Real Estate Investors</p>
 			</div>
 					<aspen-tree class="tree-image"/>
+					<aspen-tree class="second-tree-image"/>
+					<aspen-tree class="third-tree-image"/>
 		</div>
 	</section>
 	</div>
@@ -16,7 +18,7 @@
 	import AspenTree from '../svg/aspen-tree.svg'
 
 	export default {
-		
+
 	  name: 'HeaderBanner',
 	  components: { AspenTree },
 	  data () {
@@ -40,6 +42,18 @@
 		fill: $light
 		position: absolute
 		height: 100vh
-		width: 125vw
+		width: 125vw	
+
+	.second-tree-image
+		fill: $light
+		position: absolute
+		height: 100vh
+		width: 100vw
+
+	.third-tree-image
+		fill: $light
+		position: absolute
+		height: 100vh
+		width: 110vw
 
 </style>
