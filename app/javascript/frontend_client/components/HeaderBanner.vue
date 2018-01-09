@@ -2,18 +2,13 @@
 	<div>
 	<section class="hero is-primary is-fullheight">
 		<div class="hero-body">
-			<div class="container columns">
-				<div class="column is-four-fifths">
+			<div class="container">
 				<p class="title">Red Aspen Management</p>
 				<p class="subtitle">Real Estate Investors</p>
-				</div>
-				<div class="column is-one-fifth">
-					<aspen-tree class="tree-image"/>
-				</div>
 			</div>
+					<aspen-tree class="tree-image"/>
 		</div>
 	</section>
-	
 	</div>
 </template>
 
@@ -43,5 +38,11 @@
 
 	.tree-image
 		fill: white
+		position: absolute
+		height: 100vh
+		width: 125vw
+
+
+
 
 </style>
