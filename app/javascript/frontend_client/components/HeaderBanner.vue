@@ -16,7 +16,7 @@
 	import AspenTree from '../svg/aspen-tree.svg'
 
 	export default {
-
+		
 	  name: 'HeaderBanner',
 	  components: { AspenTree },
 	  data () {
@@ -41,8 +41,5 @@
 		position: absolute
 		height: 100vh
 		width: 125vw
-
-
-
 
 </style>
