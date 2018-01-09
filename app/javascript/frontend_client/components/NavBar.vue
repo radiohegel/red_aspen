@@ -25,6 +25,6 @@
 	@import "../styles/app.sass"
 
 	.navbar
-		background: $white
+		background: $light
 
 </style>

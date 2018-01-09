@@ -2,7 +2,7 @@
 	<div>
 	<section class="hero is-primary is-fullheight">
 		<div class="hero-body">
-			<div class="container">
+			<div class="container has-text-light">
 				<p class="title">Red Aspen Management</p>
 				<p class="subtitle">Real Estate Investors</p>
 			</div>
@@ -37,7 +37,7 @@
 		font-size: 40px
 
 	.tree-image
-		fill: white
+		fill: $light
 		position: absolute
 		height: 100vh
 		width: 125vw
