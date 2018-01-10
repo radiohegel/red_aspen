@@ -7,10 +7,7 @@
 			</p>
 		</div>
 	</section>
-	<section class="hero is-medium">
-		<div class="hero-body"></div>
-	</section>
-	<section class="hero is-white">
+	<section class="hero">
 		<div class="hero-body">
 			<carousel :perPage="1">
 			  <slide>
@@ -82,8 +79,8 @@
 		padding: 6%
 
 	.image
-		height: 50%
-		width: 50%
+		height: 70%
+		width: 70%
 		margin: auto
 
 </style>

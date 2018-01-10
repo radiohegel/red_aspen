@@ -8,7 +8,9 @@
 				<p class="subtitle">Real Estate Investors</p>
 				</div>
 			</div>
-			<aspen-trees class="tree-image"/>
+			<div class="svg-container">
+				<aspen-trees/>
+			</div>
 		</div>
 	</section>
 	</div>
@@ -38,11 +40,12 @@
 	.hero-body .subtitle
 		font-size: 40px
 
-	.tree-image
-		fill: $light
+	.svg-content
+		display: inline-block
 		position: absolute
-		height: 100vh
-		width: 107vw
+		top: 0
+		left: 0
+		fill: $light
 
 
 </style>
