@@ -47,5 +47,4 @@
 		left: 0
 		fill: $light
 
-
 </style>
