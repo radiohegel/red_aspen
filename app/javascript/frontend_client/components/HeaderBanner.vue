@@ -2,25 +2,25 @@
 	<div>
 	<section class="hero is-primary is-fullheight">
 		<div class="hero-body">
-			<div class="container has-text-light">
+			<div class="container has-text-light columns">
+				<div class="column is-four-fifths">
 				<p class="title">Red Aspen Management</p>
 				<p class="subtitle">Real Estate Investors</p>
+				</div>
 			</div>
-					<aspen-tree class="tree-image"/>
-					<aspen-tree class="second-tree-image"/>
-					<aspen-tree class="third-tree-image"/>
+			<aspen-trees class="tree-image"/>
 		</div>
 	</section>
 	</div>
 </template>
 
 <script>
-	import AspenTree from '../svg/aspen-tree.svg'
+	import AspenTrees from '../svg/aspen-trees.svg'
 
 	export default {
 
 	  name: 'HeaderBanner',
-	  components: { AspenTree },
+	  components: { AspenTrees },
 	  data () {
 	    return {
 
@@ -42,18 +42,7 @@
 		fill: $light
 		position: absolute
 		height: 100vh
-		width: 125vw	
+		width: 107vw
 
-	.second-tree-image
-		fill: $light
-		position: absolute
-		height: 100vh
-		width: 100vw
-
-	.third-tree-image
-		fill: $light
-		position: absolute
-		height: 100vh
-		width: 110vw
 
 </style>
