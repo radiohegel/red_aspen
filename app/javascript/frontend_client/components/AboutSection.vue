@@ -7,26 +7,29 @@
 			</p>
 		</div>
 	</section>
-	<div>
+	<section class="hero">
+		<div class="hero-body">
 			<carousel :perPage="1">
 			  <slide>
-			    Slide 1 Content
-			  </slide>
-			  <slide>
-			    Slide 2 Content
+			    <figure class="image">
+					  <img src="https://bulma.io/images/placeholders/128x128.png">
+					</figure>
 			  </slide>			  <slide>
-			    Slide 2 Content
+			    <figure class="image">
+					  <img src="https://bulma.io/images/placeholders/128x128.png">
+					</figure>
 			  </slide>			  <slide>
-			    Slide 2 Content
+			    <figure class="image">
+					  <img src="https://bulma.io/images/placeholders/128x128.png">
+					</figure>
 			  </slide>			  <slide>
-			    Slide 2 Content
-			  </slide>			  <slide>
-			    Slide 2 Content
-			  </slide>			  <slide>
-			    Slide 2 Content
+			    <figure class="image">
+					  <img src="https://bulma.io/images/placeholders/128x128.png">
+					</figure>
 			  </slide>
 			</carousel>	
-	</div>
+		</div>
+	</section>
 	</div>
 
 </template>
