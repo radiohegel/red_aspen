@@ -1,9 +1,9 @@
 <template>
 		<nav class="navbar is-fixed-top">
 				<div class="navbar-brand">
-					<a href="" class="navbar-item has-text-primary has-text-weight-semibold">About</a>
+					<router-link to="/" class="navbar-item has-text-primary has-text-weight-semibold">About</router-link>
 					<a href="" class="navbar-item has-text-primary has-text-weight-semibold">Properties</a>
-					<a href="" class="navbar-item has-text-primary has-text-weight-semibold">Contact</a>
+					<router-link to="contact" class="navbar-item has-text-primary has-text-weight-semibold">Contact</router-link>
 				</div>
 			</nav>
 </template>
