@@ -1,19 +1,21 @@
 <template>
 	<div>
-		<section class="hero is-fullheight is-white">
-			<div class="hero-body">	
-				<p class="title">TESTING Contact</p>
-			</div>
+		<section class="hero">
+			<div class="hero-body"></div>
+		</section>
+		<section>
+			<contact-form></contact-form>
 		</section>
 	</div>
 </template>
 
 <script>
+	import ContactForm from '../components/ContactForm.vue'
 
 	export default {
 
 	  name: 'ContactPage',
-	  components: {  },
+	  components: { ContactForm },
 	  data () {
 	    return {
 	    }
