@@ -1,9 +1,6 @@
 <template>
 	<div>
 	<section class="hero is-medium is-white">
-		<div class="hero-head">
-			<mountains/>
-		</div>
 		<div class="hero-body content">
 			<p class="title is-2  has-text-centered has-text-primary">
 				Red Aspen Management is a Utah-based real estate investment company. Family owned and operated, we purchase, restore, manage, and sell properties throughout the Salt Lake Valley.
@@ -62,12 +59,11 @@
 
 <script>
 	import {Carousel, Slide} from 'vue-carousel'
-	import Mountains from '../svg/mountains.svg'
 
 	export default {
 
 	  name: 'AboutSection',
-	  components: { Carousel, Slide, Mountains },
+	  components: { Carousel, Slide },
 	  data () {
 	    return {
 
