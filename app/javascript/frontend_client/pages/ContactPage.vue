@@ -1,8 +1,5 @@
 <template>
 	<div>
-		<section class="hero">
-			<div class="hero-body"></div>
-		</section>
 		<section>
 			<contact-form></contact-form>
 		</section>
